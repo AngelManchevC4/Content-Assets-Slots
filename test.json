@@ -1,0 +1,60 @@
+{
+    "uuid": "eb2b32af84fb5fffc16f9521d7",
+    "id": "25589444M",
+    "productName": "Floral Cap Sleeve Blouse",
+    "productType": "master",
+    "brand": null,
+    "price": {
+        "sales": {
+            "value": 65.99,
+            "currency": "USD",
+            "formatted": "$65.99",
+            "decimalPrice": "65.99"
+        },
+        "list": {
+            "value": 89,
+            "currency": "USD",
+            "formatted": "$89.00",
+            "decimalPrice": "89.00"
+        }
+    },
+    "images": {
+        "medium": [
+            {
+                "alt": "Floral Cap Sleeve Blouse, , medium",
+                "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw02396790/images/medium/PG.10227177.JJ5ABXX.PZ.jpg",
+                "title": "Floral Cap Sleeve Blouse, ",
+                "index": "0",
+                "absURL": "https://zydc-003.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw02396790/images/medium/PG.10227177.JJ5ABXX.PZ.jpg"
+            }
+        ]
+    },
+    "rating": 4.3,
+    "variationAttributes": [
+        {
+            "attributeId": "color",
+            "id": "color",
+            "swatchable": true,
+            "values": [
+                {
+                    "id": "JJ5ABXX",
+                    "description": null,
+                    "displayValue": "Ivory Multi",
+                    "value": "JJ5ABXX",
+                    "selectable": true,
+                    "selected": true,
+                    "images": {
+                        "swatch": [
+                            {
+                                "alt": "Floral Cap Sleeve Blouse, Ivory Multi, swatch",
+                                "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw95843b73/images/swatch/PG.10227177.JJ5ABXX.CP.jpg",
+                                "title": "Floral Cap Sleeve Blouse, Ivory Multi"
+                            }
+                        ]
+                    },
+                    "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=25589444M&dwvar_25589444M_color=JJ5ABXX"
+                }
+            ]
+        }
+    ]
+}
