@@ -8,8 +8,19 @@
 
     <p>${Resource.msg('email.msg.new.registration.body2', 'registration', null)}</p>
 
-    <div class="text-center">
-        <h1>${pdict.products[0]}</h1>
-    </div>
+    <isif condition="${pdict.products}">
 
+        <h1>${Resource.msg('label.top.offers', 'contentAssets', null)}</h1>
+
+        <isloop items="${pdict.products}" var="product" status="loopstatus">
+            <div class="text-center">
+                <h2>${product.productName}</h2>
+                <p>${Resource.msg('label.price', 'contentAssets', null)} ${product.price.list.formatted}</p>
+                <img src="${product.images.medium[0].absURL}" alt="${product.images.medium[0].alt}">
+                <h5>${Resource.msg('label.product.ratings', 'contentAssets', null)} ${product.rating}</h5>
+            </div>
+            <hr>
+        </isloop>
+
+    </isif>
 </body>
