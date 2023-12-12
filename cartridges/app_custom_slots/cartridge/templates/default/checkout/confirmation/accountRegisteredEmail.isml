@@ -1,0 +1,26 @@
+<body>
+
+    <h1>${Resource.msg('email.msg.new.registration.dear', 'registration', null)}&nbsp;${pdict.firstName}&nbsp;${pdict.lastName},</h1>
+
+    <p>${Resource.msg('email.msg.new.registration.body1', 'registration', null)}</p>
+
+    <p><a href="${pdict.url}">${pdict.url}</a></p>
+
+    <p>${Resource.msg('email.msg.new.registration.body2', 'registration', null)}</p>
+
+    <isif condition="${pdict.products}">
+
+        <h1>${Resource.msg('label.top.offers', 'contentAssets', null)}</h1>
+
+        <isloop items="${pdict.products}" var="product" status="loopstatus">
+            <div class="text-center">
+                <h2>${product.productName}</h2>
+                <p>${Resource.msg('label.price', 'contentAssets', null)} ${product.price.list.formatted}</p>
+                <img src="${product.images.medium[0].absURL}" alt="${product.images.medium[0].alt}">
+                <h5>${Resource.msg('label.product.ratings', 'contentAssets', null)} ${product.rating}</h5>
+            </div>
+            <hr>
+        </isloop>
+
+    </isif>
+</body>
